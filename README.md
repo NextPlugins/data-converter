@@ -19,7 +19,10 @@ class User {
 
   // Getters...
 
-}```
+}
+```
+
+Let's adapt the data from database to a object:
 
 ```java
 Converter.<User>builder()

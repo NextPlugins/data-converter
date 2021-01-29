@@ -1,4 +1,7 @@
 # data-converter
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c2776a4e8c5b44dbadc83f5ac7a6e9b6)](https://app.codacy.com/gh/NextPlugins/data-converter?utm_source=github.com&utm_medium=referral&utm_content=NextPlugins/data-converter&utm_campaign=Badge_Grade)
+
 Essentialy, it was created to help convert data of a plugin from an other. But, we made it a
 adapter which can be used as a converter too.
 

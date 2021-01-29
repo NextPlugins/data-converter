@@ -27,6 +27,7 @@ Let's adapt the data from database to a object:
 ```java
 Converter.<User>builder()
        .connection(myConnectionHere)
+       .create()
        .request("SELECT `id`, `name` FROM `users` WHERE `id` = '1'")
        .convert((resultSet) -> new User(resultSet.get("id"), resultSet.get("name"))
        .responseEach((user) -> System.out.printf("My ID | My Name: %s | %s", user.getId(), user.getName()));
